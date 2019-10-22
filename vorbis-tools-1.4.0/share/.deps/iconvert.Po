@@ -1,0 +1,69 @@
+iconvert.o: iconvert.c ../config.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/assert.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/errno.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/errno.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/errno.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/wasi/wasi.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stddef.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stddef.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdint.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdint.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/iconv.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdlib.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/stdlib.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdlib.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/alloca.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/strings.h
+
+../config.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/assert.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/errno.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/errno.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/errno.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/wasi/wasi.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stddef.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stddef.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdint.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdint.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/iconv.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdlib.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/stdlib.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdlib.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/alloca.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/strings.h:

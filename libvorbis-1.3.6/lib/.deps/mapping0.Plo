@@ -1,0 +1,131 @@
+mapping0.lo: mapping0.c \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdlib.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/stdlib.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdlib.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/alloca.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdio.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdio.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/strings.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/math.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/math.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/math.h \
+  /Users/mitist/sharpener/build/include/ogg/ogg.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stddef.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stddef.h \
+  /Users/mitist/sharpener/build/include/ogg/os_types.h \
+  /Users/mitist/sharpener/build/include/ogg/config_types.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/inttypes.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/inttypes.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdint.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdint.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/sys/types.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/endian.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/sys/select.h \
+  ../include/vorbis/codec.h codec_internal.h envelope.h mdct.h \
+  codebook.h psy.h smallft.h backends.h bitrate.h os.h ../config.h \
+  misc.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/memory.h \
+  highlevel.h window.h registry.h lpc.h lsp.h scales.h
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdlib.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/stdlib.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdlib.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/alloca.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdio.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdio.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/strings.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/math.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/math.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/math.h:
+
+/Users/mitist/sharpener/build/include/ogg/ogg.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stddef.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stddef.h:
+
+/Users/mitist/sharpener/build/include/ogg/os_types.h:
+
+/Users/mitist/sharpener/build/include/ogg/config_types.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/inttypes.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/inttypes.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdint.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdint.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/sys/types.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/endian.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/sys/select.h:
+
+../include/vorbis/codec.h:
+
+codec_internal.h:
+
+envelope.h:
+
+mdct.h:
+
+codebook.h:
+
+psy.h:
+
+smallft.h:
+
+backends.h:
+
+bitrate.h:
+
+os.h:
+
+../config.h:
+
+misc.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/memory.h:
+
+highlevel.h:
+
+window.h:
+
+registry.h:
+
+lpc.h:
+
+lsp.h:
+
+scales.h:

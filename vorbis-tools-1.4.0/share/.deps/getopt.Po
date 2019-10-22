@@ -1,0 +1,33 @@
+getopt.o: getopt.c ../config.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdio.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdio.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  ../include/getopt.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/string.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/strings.h
+
+../config.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdio.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdio.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+../include/getopt.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/compat/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/string.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/strings.h:

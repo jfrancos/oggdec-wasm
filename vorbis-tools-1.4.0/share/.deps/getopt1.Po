@@ -1,0 +1,20 @@
+getopt1.o: getopt1.c ../config.h ../include/getopt.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdio.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdio.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h \
+  /Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h
+
+../config.h:
+
+../include/getopt.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/stdio.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libcxx/__config:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/stdio.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/include/libc/features.h:
+
+/Users/mitist/emsdk/fastcomp/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
