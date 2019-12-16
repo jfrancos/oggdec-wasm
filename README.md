@@ -10,3 +10,5 @@ const Module = module()
 const decodeOggData = Module.decodeOggData
 const decodedData = decodeOggData([...some array buffer...])
 ```
+
+(Compiles on Mac, not tested on Linux)
