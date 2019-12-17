@@ -5,7 +5,7 @@ var Module = (function() {
 function(Module) {
   Module = Module || {};
 
-function aa(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}function ba(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:aa(a)}}var d="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,ca="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){a!=Array.prototype&&a!=Object.prototype&&(a[b]=c.value)};
+function aa(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}function ba(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:aa(a)}}var d="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:globalThis,ca="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){a!=Array.prototype&&a!=Object.prototype&&(a[b]=c.value)};
 function da(a,b){if(b){var c=d;a=a.split(".");for(var e=0;e<a.length-1;e++){var f=a[e];f in c||(c[f]={});c=c[f]}a=a[a.length-1];e=c[a];b=b(e);b!=e&&null!=b&&ca(c,a,{configurable:!0,writable:!0,value:b})}}
 da("Promise",function(a){function b(a){this.da=0;this.na=void 0;this.I=[];var b=this.ja();try{a(b.resolve,b.reject)}catch(n){b.reject(n)}}function c(){this.I=null}function e(a){return a instanceof b?a:new b(function(b){b(a)})}if(a)return a;c.prototype.da=function(a){if(null==this.I){this.I=[];var b=this;this.ja(function(){b.na()})}this.I.push(a)};var f=d.setTimeout;c.prototype.ja=function(a){f(a,0)};c.prototype.na=function(){for(;this.I&&this.I.length;){var a=this.I;this.I=[];for(var b=0;b<a.length;++b){var c=
 a[b];a[b]=null;try{c()}catch(p){this.ma(p)}}}this.I=null};c.prototype.ma=function(a){this.ja(function(){throw a;})};b.prototype.ja=function(){function a(a){return function(e){c||(c=!0,a.call(b,e))}}var b=this,c=!1;return{resolve:a(this.Jb),reject:a(this.ma)}};b.prototype.Jb=function(a){if(a===this)this.ma(new TypeError("A Promise cannot resolve to itself"));else if(a instanceof b)this.Kb(a);else{a:switch(typeof a){case "object":var c=null!=a;break a;case "function":c=!0;break a;default:c=!1}c?this.Ib(a):
@@ -104,6 +104,7 @@ function qb(a){function b(){if(!Z&&(Z=!0,!va)){h.noFSInit||Q.ta.Ya||Q.ta();G(Ea)
 }
 );
 })();
+export {Module as decodeOggDecModule};
 if (typeof exports === 'object' && typeof module === 'object')
       module.exports = Module;
     else if (typeof define === 'function' && define['amd'])
