@@ -17,7 +17,7 @@ oggdec.js: ${TOOLS_FILE}/oggdec/oggdec.o pre.js
 	-s ENVIRONMENT=web \
 	-s ERROR_ON_UNDEFINED_SYMBOLS=0 \
 	-llibvorbisfile -llibvorbis -llibogg -Llib
-	sed -i '' '1s;^;\/* eslint-disable *\/;' oggdec.js
+	sed --in-place '1s;^;\/* eslint-disable *\/;' oggdec.js
 
 ${TOOLS_FILE}/oggdec/oggdec.o: ${TOOLS_FILE}/oggdec/oggdec.c
 	cd "${TOOLS_FILE}/oggdec" \
@@ -26,7 +26,7 @@ ${TOOLS_FILE}/oggdec/oggdec.o: ${TOOLS_FILE}/oggdec/oggdec.c
 ${TOOLS_FILE}/oggdec/oggdec.c: ${PREFIX}/lib/libvorbisfile.a
 	curl -L "https://downloads.xiph.org/releases/vorbis/${TOOLS_FILE}.tar.gz" | tar xz
 	cd "${TOOLS_FILE}" \
-	&& sed -i '' 's/x$$ac_cv_have_decl_OV_ECTL_COUPLING_SET/xyes/' configure \
+	&& sed --in-place 's/x$$ac_cv_have_decl_OV_ECTL_COUPLING_SET/xyes/' configure \
 	&& emconfigure ./configure --prefix=${PREFIX} \
 	--disable-shared \
 	--disable-oggenc \
@@ -38,7 +38,7 @@ ${TOOLS_FILE}/oggdec/oggdec.c: ${PREFIX}/lib/libvorbisfile.a
 	--without-speex \
 	--without-flac \
 	&& emmake make install \
- 	&& sed -i '' 's/#include "i18n.h"/char *_ (char *text) { return text; }/' oggdec/oggdec.c
+ 	&& sed --in-place 's/#include "i18n.h"/char *_ (char *text) { return text; }/' oggdec/oggdec.c
 
 ${PREFIX}/lib/libvorbisfile.a: ${PREFIX}/lib/libogg.a
 	curl -L "https://downloads.xiph.org/releases/vorbis/${VORBIS_FILE}.tar.xz" | tar xJ
