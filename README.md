@@ -11,4 +11,8 @@ const decodeOggData = Module.decodeOggData
 const decodedData = decodeOggData([...some array buffer...])
 ```
 
-(Compiles on Mac, not tested on Linux)
+Makefile tested on Mac and Linux
+
+Instructions for installing emscripten here:
+
+https://emscripten.org/docs/getting_started/downloads.html
