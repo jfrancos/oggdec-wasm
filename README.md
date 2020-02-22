@@ -13,6 +13,8 @@ const decodeOggData = Module.decodeOggData
 const decodedData = decodeOggData([...some array buffer...])
 ```
 
+If you know you're going to decode ogg data, it's a drop-in replacement for decodeAudioData.
+
 Makefile tested on Mac and Linux
 
 Instructions for installing emscripten here:
