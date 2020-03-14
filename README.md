@@ -7,10 +7,11 @@ Most browsers play Ogg audio natively, but [Safari doesn't, nor does any iOS bro
 The Makfile, along with pre.js, produces oggdec.js, which you can use like this:
 
 ```
-import module from "./oggdec"
-const Module = module()
-const decodeOggData = Module.decodeOggData
-const decodedData = decodeOggData([...some array buffer...])
+<script type="module">
+  import {decodeOggDecModule} from "./oggdec.js";
+  const {decodeOggData} = decodeOggDecModule();
+  const decodedData = decodeOggData([...some array buffer...]);
+</script>
 ```
 
 If you know you're going to decode ogg data, it's a drop-in replacement for decodeAudioData.
